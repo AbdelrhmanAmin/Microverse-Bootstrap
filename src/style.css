@@ -1,4 +1,4 @@
-body{
+body,.all-features{
   background-color: #f4f5f7;
 }
 .card img{
@@ -18,11 +18,21 @@ p{
   color:#F62210
 }
 
-.tittle{
+.color-reverse{
+  color: #F5F5F5;
+  background-color:#F62210
+}
+
+.black{
   color:black
 }
 
 .more-stories img{
   height: 95px;
   width: 95px;
+}
+
+.magazine div img{
+  width: 29px;
+  height: 28px;
 }
