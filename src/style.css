@@ -1,12 +1,25 @@
-img{
-  height: 423px;
+.card img{
+  width: auto;
+  height: 66.66%
 }
 
-.h1,h2,h3,h4,h5,h6{
-  font-family: ;
+h1,h2,h3,h4,h5,h6, .tittle{
+  font-family: 'Roboto Condensed', sans-serif;
 }
-
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.2;
+}
 .color{
   background-color: #F5F5F5;
   color:#F62210
+}
+
+.tittle{
+  color:black
+}
+
+.more-stories img{
+  height: 95px;
+  width: 95px;
 }
