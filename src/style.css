@@ -40,3 +40,6 @@ p {
 .News {
   width: 50% !important;
 }
+.rad-0 {
+  border-radius: 0;
+}
