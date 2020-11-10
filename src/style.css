@@ -43,3 +43,40 @@ p {
 .rad-0 {
   border-radius: 0;
 }
+.color {
+  background-color: #f5f5f5;
+  color: #f62210;
+}
+
+.color-reverse {
+  color: #f5f5f5;
+  background-color: #f62210;
+}
+
+.black {
+  color: black;
+}
+
+.more-stories img {
+  height: 95px;
+  width: 95px;
+}
+
+.article span img {
+  width: 29px;
+  height: 28px;
+}
+.card img {
+  width: auto;
+  height: 66.66%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.tittle {
+  font-family: "Roboto Condensed", sans-serif;
+}
