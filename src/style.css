@@ -56,15 +56,17 @@ p {
 .black {
   color: black;
 }
-
 .more-stories img {
-  height: 95px;
-  width: 95px;
+  height: 95px !important;
+  width: 95px !important;
 }
-
-.article span img {
-  width: 29px;
-  height: 28px;
+.img-responsive {
+  width: 100% !important;
+}
+.article span img,
+.img-icon {
+  width: 29px !important;
+  height: 28px !important;
 }
 .card img {
   width: auto;
