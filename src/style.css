@@ -4,6 +4,8 @@
 }
 body {
   background-color: #f4f5f7;
+  width: 100vw;
+  overflow-x: hidden;
 }
 .border-top-manual {
   border-top: 5px solid #dee2e6 !important;
@@ -26,4 +28,15 @@ p {
 .label {
   bottom: -5px;
   font-size: 11px;
+}
+.img-distort {
+  width: 170px;
+  height: 220px;
+}
+.img-distort-con {
+  left: 110px;
+  top: 10px;
+}
+.News {
+  width: 50% !important;
 }
