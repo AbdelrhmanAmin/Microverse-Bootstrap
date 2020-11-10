@@ -2,6 +2,9 @@
   padding: 0;
   margin: 0;
 }
+.bg-custom {
+  background-color: #f4f5f7;
+}
 body {
   background-color: #f4f5f7;
   width: 100vw;
@@ -68,9 +71,13 @@ p {
   width: 29px !important;
   height: 28px !important;
 }
+.card-img {
+  width: 345px;
+  height: 215px;
+}
 .card img {
-  width: auto;
-  height: 66.66%;
+  width: 345px;
+  height: 215px;
 }
 
 h1,
