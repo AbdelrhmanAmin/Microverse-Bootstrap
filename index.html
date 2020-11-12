@@ -24,11 +24,16 @@
   <body>
     <nav class="navbar bg-danger sticky-top navbar-dark py-1">
       <div class="container-fluid m-0 p-0 d-flex flex-row align-items-center">
-        <a href="#" class="navbar-brand">
-          <h4 class="m-0">Kittensweek</h4>
+        <a href="#" class="navbar-brand col-3">
+          <h4 class="m-0 h4">Kittensweek</h4>
         </a>
-        <ul class="navbar-nav d-flex flex-row align-items-center">
-          <li>
+        <ul class="navbar-nav d-flex flex-row align-items-center col-9">
+          <li class="d-none d-md-block">
+            <small class="m-0 text-light font-weight-bold text-uppercase"
+              >Login</small
+            >
+          </li>
+          <li class="d-block d-md-none">
             <span><i class="fas fa-user text-light"></i></span>
           </li>
           <li class="mx-2">
@@ -38,13 +43,8 @@
               SUBSCRIBE >
             </button>
           </li>
-          <li>
-            <button
-              class="navbar-toggler border-0 p-0"
-              type="button"
-              data-toggler="collapse"
-              data-target="#navbarResponsive"
-            >
+          <li class="d-block d-lg-none">
+            <button class="navbar-toggler border-0 p-0" type="button">
               <span class="navbar-toggler-icon"></span>
             </button>
           </li>

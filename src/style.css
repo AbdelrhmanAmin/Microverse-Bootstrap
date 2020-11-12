@@ -15,3 +15,8 @@ button {
 .custom-font {
   font-size: 12px;
 }
+@media (min-width: 992px) {
+  .h4 {
+    font-size: 4rem;
+  }
+}
