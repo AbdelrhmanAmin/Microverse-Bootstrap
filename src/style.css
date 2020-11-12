@@ -15,8 +15,94 @@ button {
 .custom-font {
   font-size: 12px;
 }
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   .h4 {
     font-size: 4rem;
   }
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #f4f5f7;
+  width: 100vw;
+  overflow-x: hidden;
+}
+.border-top-manual {
+  border-top: 5px solid #dee2e6 !important;
+}
+.border-bottom-double-manual {
+  border-bottom: 3px double #dee2e6;
+}
+.border-bottom-manual {
+  border-bottom: 5px solid #dee2e6 !important;
+}
+.centering-absolute {
+  left: 45%;
+  top: 45%;
+  width: 30px;
+  height: 30px;
+}
+p {
+  margin: 0 !important;
+}
+.label {
+  bottom: -5px;
+  font-size: 11px;
+}
+.img-distort {
+  width: 170px;
+  height: 220px;
+}
+.img-distort-con {
+  left: 110px;
+  top: 10px;
+}
+.News {
+  width: 50% !important;
+}
+.rad-0 {
+  border-radius: 0;
+}
+.color {
+  background-color: #f5f5f5;
+  color: #f62210;
+}
+
+.color-reverse {
+  color: #f5f5f5;
+  background-color: #f62210;
+}
+
+.black {
+  color: black;
+}
+.more-stories img {
+  height: 95px !important;
+  width: 95px !important;
+}
+.img-responsive {
+  width: 100% !important;
+}
+.article span img,
+.img-icon {
+  width: 29px !important;
+  height: 28px !important;
+}
+.card img,
+.card-img {
+  width: 100%;
+  height: 250px !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.tittle {
+  font-family: "Roboto Condensed", sans-serif;
 }
