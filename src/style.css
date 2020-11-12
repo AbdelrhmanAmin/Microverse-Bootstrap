@@ -1,3 +1,26 @@
+button {
+  line-height: initial !important;
+}
+
+.navbar-toggler-icon {
+  width: 1.1em !important;
+}
+
+.bg-danger,
+.btn-danger {
+  background-color: #f72210 !important;
+}
+
+.bg-warning,
+.btn-warning {
+  background-color: #ffe400 !important;
+}
+
+.custom-font {
+  font-size: 12px;
+}
+
+
 * {
   padding: 0;
   margin: 0;
@@ -56,21 +79,26 @@ p {
 .black {
   color: black;
 }
+
 .more-stories img {
-  height: 95px !important;
-  width: 95px !important;
+  height: 95px ;
+  width: 95px ;
 }
+
 .img-responsive {
   width: 100% !important;
 }
+
 .article span img,
 .img-icon {
   width: 29px !important;
   height: 28px !important;
 }
-.card img {
-  width: auto;
-  height: 66.66%;
+
+.card img,
+.card-img {
+  width: 100%;
+  height: 250px !important;
 }
 
 h1,
