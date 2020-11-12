@@ -15,11 +15,6 @@ button {
 .custom-font {
   font-size: 12px;
 }
-/* @media (min-width: 992px) {
-  .h4 {
-    font-size: 4rem;
-  }
-} */
 
 * {
   padding: 0;
@@ -105,4 +100,9 @@ h5,
 h6,
 .tittle {
   font-family: "Roboto Condensed", sans-serif;
+}
+@media (min-width: 992px) {
+  .h4 {
+    font-size: 4rem;
+  }
 }
