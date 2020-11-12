@@ -1,0 +1,17 @@
+button {
+  line-height: initial !important;
+}
+.navbar-toggler-icon {
+  width: 1.1em !important;
+}
+.bg-danger,
+.btn-danger {
+  background-color: #f72210 !important;
+}
+.bg-warning,
+.btn-warning {
+  background-color: #ffe400 !important;
+}
+.custom-font {
+  font-size: 12px;
+}
