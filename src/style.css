@@ -1,25 +1,20 @@
 button {
   line-height: initial !important;
 }
-
 .navbar-toggler-icon {
   width: 1.1em !important;
 }
-
 .bg-danger,
 .btn-danger {
   background-color: #f72210 !important;
 }
-
 .bg-warning,
 .btn-warning {
   background-color: #ffe400 !important;
 }
-
 .custom-font {
   font-size: 12px;
 }
-
 
 * {
   padding: 0;
@@ -79,22 +74,18 @@ p {
 .black {
   color: black;
 }
-
 .more-stories img {
-  height: 95px ;
-  width: 95px ;
+  height: 95px !important;
+  width: 95px !important;
 }
-
 .img-responsive {
   width: 100% !important;
 }
-
 .article span img,
 .img-icon {
   width: 29px !important;
   height: 28px !important;
 }
-
 .card img,
 .card-img {
   width: 100%;
@@ -109,4 +100,14 @@ h5,
 h6,
 .tittle {
   font-family: "Roboto Condensed", sans-serif;
+}
+.left-content,
+.right-content,
+.middle-content {
+  background: white;
+}
+@media (min-width: 992px) {
+  .h4 {
+    font-size: 4rem;
+  }
 }
