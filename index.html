@@ -13,8 +13,8 @@
 </head>
 
 <body>
-  <header>
-    <nav class="navbar bg-danger sticky-top navbar-dark py-1 px-2 px-md-3 px-lg-5 py-lg-0 ">
+  <header class="container-fluid mx-1">
+    <nav class="navbar bg-danger fixed-top w-100 navbar-dark py-1 px-2 px-md-3 px-lg-5 py-lg-0 ">
     <div class="container-fluid m-0 p-0 d-flex flex-row align-items-center">
       <div class="row d-flex w-100 flex-nowrap">
         <div class="d-none d-lg-flex flex-column justify-content-center col-lg-4 text-light">
@@ -45,26 +45,38 @@
       </div>
     </div>
   </nav>
-  <nav class="nav-2 d-none d-lg-flex bg-white position-absolute ">
-    <ul class="d-flex justify-content-around list-unstyled align-items-center m-0">
-      <li class="d-flex flex-row align-items-center border-right px-2 font-weight-bold"><b><a>U.S.</a></b></li>
-      <li class="d-flex flex-row align-items-center border-right px-2"><b>World</b></li>
-      <li class="d-flex flex-row align-items-center  border-right px-2"><b>Business</b></li>
-      <li class="d-flex flex-row align-items-center  border-right px-2"><b>Tech & Science</b></li>
-      <li class="d-flex flex-row align-items-center  border-right px-2">Culture</li>
-      <li class="d-flex flex-row align-items-center  border-right px-2">Newsgeek</li>
-      <li class="d-flex flex-row align-items-center  border-right px-2">Sports</li>
-      <li class="d-flex flex-row align-items-center  border-right px-2">Health</li>
-      <li class="d-flex flex-row align-items-center  border-right px-2">The Debate</li>
-      <li class="d-flex flex-row align-items-center  border-right px-2">Vantage</li>
-      <li class="d-flex flex-row align-items-center ">Weather</li>
+  <div class="nav-1 d-none d-lg-flex bg-white">
+    <ul class="d-flex justify-content-between list-unstyled align-items-center my-1 px-0">
+      <li class="d-flex flex-row align-items-center h-100 font-weight-bolder  border-right px-4"><b><a>U.S.</a></b></li>
+      <li class="d-flex flex-row align-items-center h-100 font-weight-bolder  border-right px-4"><b>World</b></li>
+      <li class="d-flex flex-row align-items-center h-100 font-weight-bolder  border-right px-4"><b>Business</b></li>
+      <li class="d-flex flex-row align-items-center h-100 font-weight-bolder  border-right px-4"><b>Tech & Science</b></li>
+      <li class="d-flex flex-row align-items-center h-100 font-weight-bolder  border-right px-4"><b>Culture</b></li>
+      <li class="d-flex flex-row align-items-center h-100 font-weight-bolder  border-right px-4"><b>Newsgeek</b></li>
+      <li class="d-flex flex-row align-items-center h-100 font-weight-bolder  border-right px-4"><b>Sports</b></li>
+      <li class="d-flex flex-row align-items-center h-100 font-weight-bolder  border-right px-4"><b>Health</b></li>
+      <li class="d-flex flex-row align-items-center h-100 font-weight-bolder  border-right px-2"><b>The Debate</b></li>
+      <li class="d-flex flex-row align-items-center h-100 font-weight-bolder  border-right px-4"><b>Vantage</b></li>
+      <li class="d-flex flex-row align-items-center h-100 font-weight-bolder pl-2"><b>Weather</b></li>
     </ul>
     <div class="search-div d-flex justify-content-start mr-2 align-items-center">
-    <input class="search-nav w-100 mt-0  form-text bg-transparent border-0 " aria-label="small" width="20" type="text" placeholder="Search">
+    <input class="search-nav w-100 mt-0  form-text bg-transparent border-0 " aria-label="small"  type="text" placeholder="Search">
     <i class="fas fa-search"></i>   
   </div>
-  </nav>
-
+  <div class="angle"></div>
+  <div class="colored-space"></div>
+</div>
+  <div class="nav-2 d-none d-lg-flex  bg-white  border-top border-bottom ">
+    <ul class="d-flex flex-row list-unstyled mb-0 py-3 align-items-center">
+      <li class="px-3 font-weight-bolder">TRENDING</li>
+      <li class="px-3 font-weight-bolder text-secondary">TRENDING</li>
+      <li class="px-3 font-weight-bolder text-secondary">TRENDING</li>
+      <li class="px-3 font-weight-bolder text-secondary">TRENDING</li>
+      <li class="px-3 font-weight-bolder text-secondary">TRENDING</li>
+      <li class="px-3 font-weight-bolder text-secondary">TRENDING</li>
+      <li class="px-3 font-weight-bolder text-secondary">TRENDING</li>
+    </ul>
+  </div>
   </header>
   <div class="container-fluid">
     <div class="row no-glutters mx-1">
@@ -94,7 +106,7 @@
                 </div>
               </div>
             </div>
-       <div class="left-content px-lg-0 col-12 col-md-5 col-lg-4 order-0 order-lg-1 order-md-0 p-0 med-sticky lg-sticky">
+       <div class="left-content px-lg-0 col-12 col-md-5 col-lg-3 order-0 order-lg-1 order-md-0 p-0 med-sticky lg-sticky">
             <div class="pr-3 pl-3 mb-3 bg-white col-12">
               <div>
                 <h1 class="h6 text-secondary pt-2 pb-2 font-weight-bold mb-0 pt-3">
@@ -157,7 +169,7 @@
               </div>
             </div>
           </div>
-          <div class="middle-content col-12 col-sm-12 col-md-7 p-md-0  order-1 order-lg-1  col-lg-5 px-sm-3 px-lg-3 pb-md-5">
+          <div class="middle-content col-12 col-md-7 p-md-0  order-1 order-lg-1  col-lg-5 px-sm-3 px-lg-3 pb-md-5">
             <div class="row">
               <!-- TOP STORY -->
               <div class="pr-3 pl-3 px-lg-0 mb-3 mb-md-0 bg-white border-bottom col-12 d-none d-md-block">
@@ -380,7 +392,7 @@
             </div>
             </div>
           </div>
-          <div class="right-content col-12  px-lg-0 col-lg-3 p-0 h-100 order-0 order-md-1 lg-sticky">
+          <div class="right-content col-12 px-lg-3 col-lg-4 p-0 h-100 order-0 order-md-1 lg-sticky">
             <!-- THE DEBATE -->
             <div id='debate'
               class="my-3 mt-lg-3 my-lg-3 px-3 px-lg-0 pb-lg-0 pt-lg-0 pb-4 pt-lg-0 pt-3 bg-white position-relative border-bottom col-12">

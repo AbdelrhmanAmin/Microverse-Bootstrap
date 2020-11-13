@@ -106,24 +106,26 @@ h6,
   background: white;
 }
 .search-div {
-  width: 8%;
+  width: 5%;
+  margin-left: 10px !important;
 }
-
-.nav-2 {
-  z-index: 1299;
-  width: 95%;
+.nav-1 {
+  height: 50px;
+  margin-top: 70px;
 }
-
-.nav-2::before {
-  width: 2px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  content: "";
-  display: block;
+.angle {
+  width: 0;
+  height: 0;
+  border-top: 15px solid #f72210;
+  border-left: 12px solid transparent;
+  margin-left: 1px;
+}
+.colored-space {
+  width: 233px;
+  height: 15px;
   background-color: #f72210;
-  border-left: 12px solid white;
-  border-top: 13px solid #f72210;
+  position: absolute;
+  right: 0px;
 }
 
 .sm-img {
