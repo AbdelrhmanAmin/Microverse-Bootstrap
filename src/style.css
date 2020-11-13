@@ -110,4 +110,19 @@ h6,
   .h4 {
     font-size: 4rem;
   }
+  .lg-sticky {
+    position: sticky;
+    top: 0;
+    height: 100%;
+  }
+}
+@media (min-width: 768px) {
+  #debate {
+    margin-top: -30px;
+  }
+  .med-sticky {
+    position: sticky;
+    top: 0;
+    height: 100%;
+  }
 }
