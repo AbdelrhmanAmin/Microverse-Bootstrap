@@ -52,7 +52,7 @@ p {
   height: 220px;
 }
 .img-distort-con {
-  left: 110px;
+  left: 50px;
   top: 10px;
 }
 .News {
@@ -133,5 +133,9 @@ h6,
   .med-sticky {
     position: sticky;
     top: 0;
+  }
+  .img-distort-con {
+    left: 100px;
+    top: 10px;
   }
 }
