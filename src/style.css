@@ -98,7 +98,8 @@ h3,
 h4,
 h5,
 h6,
-.tittle {
+.tittle,
+.nav-2 {
   font-family: "Roboto Condensed", sans-serif;
 }
 .left-content,
@@ -110,4 +111,26 @@ h6,
   .h4 {
     font-size: 4rem;
   }
+}
+
+
+.search-div{
+  width: 8%;
+}
+
+.nav-2{
+  z-index: 1299;
+  width: 95%;
+}
+
+.nav-2::before{
+  width: 2px;
+  position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    display: block;
+    background-color: #f72210;
+    border-left: 12px solid white;
+    border-top: 13px solid #f72210;
 }
