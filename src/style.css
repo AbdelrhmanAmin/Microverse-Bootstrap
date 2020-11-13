@@ -115,6 +115,16 @@ h6,
     top: 0;
     height: 100%;
   }
+  nav {
+    height: 70px !important;
+  }
+  .navbar-brand {
+    padding-top: 0 !important;
+  }
+  .form-lg {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
 }
 @media (min-width: 768px) {
   #debate {
@@ -123,6 +133,5 @@ h6,
   .med-sticky {
     position: sticky;
     top: 0;
-    height: 100%;
   }
 }
