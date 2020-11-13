@@ -104,6 +104,29 @@ h6,
 .middle-content {
   background: white;
 }
+.sm-img {
+  height: 200px !important;
+}
+@media (min-width: 768px) {
+  #debate {
+    margin-top: -30px;
+  }
+  .med-sticky {
+    position: sticky;
+    top: 0;
+  }
+  .img-distort-con {
+    left: 100px;
+    top: 10px;
+  }
+  .News {
+    height: 180px !important;
+  }
+  .sm-img {
+    height: 100% !important;
+  }
+}
+
 @media (min-width: 992px) {
   .h4 {
     font-size: 4rem;
@@ -125,21 +148,5 @@ h6,
   }
   #News {
     height: 280px !important;
-  }
-}
-@media (min-width: 768px) {
-  #debate {
-    margin-top: -30px;
-  }
-  .med-sticky {
-    position: sticky;
-    top: 0;
-  }
-  .img-distort-con {
-    left: 100px;
-    top: 10px;
-  }
-  .News {
-    height: 180px !important;
   }
 }
