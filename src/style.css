@@ -55,9 +55,7 @@ p {
   left: 50px;
   top: 10px;
 }
-.News {
-  width: 50% !important;
-}
+
 .rad-0 {
   border-radius: 0;
 }
@@ -125,6 +123,9 @@ h6,
     flex: 0 0 100% !important;
     max-width: 100% !important;
   }
+  #News {
+    height: 280px !important;
+  }
 }
 @media (min-width: 768px) {
   #debate {
@@ -137,5 +138,8 @@ h6,
   .img-distort-con {
     left: 100px;
     top: 10px;
+  }
+  .News {
+    height: 180px !important;
   }
 }
