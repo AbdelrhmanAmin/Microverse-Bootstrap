@@ -1,4 +1,4 @@
-# The Next Week Responsive
+# The Newsweek Responsive
 
 > In this project we did a responsive design of Newsweek Homepage.
 
