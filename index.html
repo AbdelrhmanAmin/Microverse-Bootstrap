@@ -6,15 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
-  <link rel="stylesheet" href="/src/style.css" />
+  <link rel="stylesheet" href="src/style.css" />
   <title>Kittensweek</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
     integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
 </head>
 
 <body>
-  <header>
-  <nav class="navbar bg-danger sticky-top navbar-dark py-1 px-2 px-md-3 px-lg-5">
+  <header class="container-fluid mx-1">
+    <nav class="navbar bg-danger fixed-top w-100 navbar-dark py-1 px-2 px-md-3 px-lg-5 py-lg-0 ">
     <div class="container-fluid m-0 p-0 d-flex flex-row align-items-center">
       <div class="row d-flex w-100 flex-nowrap">
         <div class="d-none d-lg-flex flex-column justify-content-center col-lg-4 text-light">
@@ -22,7 +22,7 @@
           <span>Thu, Nov 12, 2020</span>
         </div>
         <a href="#" class="navbar-brand col-6 col-lg-4">
-          <h4 class="m-0 h4 up">Kittensweek</h4>
+          <h4 class="m-0 h4">Kittensweek</h4>
         </a>
         <ul class="navbar-nav d-flex flex-row align-items-center justify-content-end col-6 col-lg-4">
           <li class="d-none d-md-block">
@@ -32,7 +32,7 @@
             <span><i class="fas fa-user text-light"></i></span>
           </li>
           <li class="mx-2">
-            <button class="btn btn-warning custom-font font-weight-bolder btn-sm py-1 px-2 rounded-pill">
+            <button type="submit" class="btn btn-warning custom-font font-weight-bolder btn-sm py-1 px-2 rounded-pill">
               SUBSCRIBE >
             </button>
           </li>
@@ -45,98 +45,11 @@
       </div>
     </div>
   </nav>
-
-  <nav class="nav-2 d-none d-lg-flex bg-white position-absolute mt-n3 ">
-    <ul class="d-flex justify-content-arround list-unstyled pt-2 ml-2 w-100">
-      <li class="border-right pr-2 font-weight-bold"><b><a>U.S.</a></b></li>
-      <li class="border-right px-2"><b>World</b></li>
-      <li class=" border-right px-2"><b>Business</b></li>
-      <li class=" border-right px-2"><b>Tech & Science</b></li>
-      <li class=" border-right px-2">Culture</li>
-      <li class=" border-right px-2">Newsgeek</li>
-      <li class=" border-right px-2">Sports</li>
-      <li class=" border-right px-2">Health</li>
-      <li class=" border-right px-2">The Debate</li>
-      <li class=" border-right px-2">Vantage</li>
-      <li class=" pl-2">Wather</li>
-    </ul>
-    <div class="search-div d-flex justify-content-start mr-2">
-    <input class="search-nav w-100 mt-0 pb-2 form-text bg-transparent border-0 " aria-label="small" width="20" type="text" placeholder="Search">
-    <i class="fas fa-search pt-2"></i>   
-  </div>
-  <div class="h-10"></div>
-  </nav>
- 
-
-</header>
-  <div class="container-fluid">
-    <div class="row no-glutters">
-      <div class="col-12">
-        <div class="row no-glutters position-relative">
-          <div class="left-content col-12 col-md-5 col-lg-4 order-1 order-md-0 p-0 position-sticky h-100" style="top:0">
-            <div class="pr-3 pl-3 mb-3 bg-white border-bottom col-12">
-              <div>
-                <h1 class="h6 text-secondary pt-2 pb-2 font-weight-bold mb-0 pt-3">
-                  FEATURED STORIES
-                </h1>
-              </div>
-              <div class="card border-0">
-                <div class="d-flex align-items-end">
-                  <h6 class="position-absolute p-2 color mb-0 text-uppercase font-weight-bold">
-                    Health
-                  </h6>
-                  <img class="card-img-top w-100 h-auto" src="http://placekitten.com/g/200/300" />
-                </div>
-                <h5 class="pt-3 font-weight-bold black">
-                  Donald Trump Plans New Leadership PAC 'Win or Lose' Amid Fundraising
-                  Drive
-                </h5>
-                <p>
-                  <small>
-                    The Trump campaign has filed lawsuits in Pennsylvania challenging
-                    election results in the crucial state.</small>
-                </p>
-              </div>
-
-              <div class="card border-0">
-                <div class="d-flex align-items-end">
-                  <h6 class="position-absolute p-3 color mb-0 text-uppercase font-weight-bold">
-                    World
-                  </h6>
-                  <img class="card-img-top w-100 h-auto" src="http://placekitten.com/g/200/300" />
-                </div>
-                <h5 class="pt-3 font-weight-bold black">
-                  COVID-19 Vaccine '90 Percent Effective,' Pfizer to Apply to FDA in
-                  November
-                </h5>
-                <p>
-                  <small>Pfizer said no serious safety concerns have been observed so
-                    far.</small>
-                </p>
-              </div>
-
-              <div class="card border-0">
-                <div class="d-flex align-items-end">
-                  <p class="position-absolute p-2 color mb-0 text-uppercase font-weight-bold">
-                    U.S
-                  </p>
-                  <img class="card-img-top w-100 h-auto" src="http://placekitten.com/g/200/300" />
-                </div>
-                <h5 class="pt-3 font-weight-bold black">
-                  Graham Wants Mail-In Vote 'Oversight' As McConnell Defends Trump
-                  Lawsuits
-                </h5>
-                <p>
-                  <small>The South Carolina Senator has backed President Trump over his
-                    claims of fraud in the election, offering his support to every
-                    avenue being pursued.</small>
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="middle-content col-12 col-sm-12 col-md-7 p-md-0 col-lg-5 px-sm-3 px-lg-3">
-            <div class="pr-3 pl-3 mb-3 mb-md-0 bg-white border-bottom col-12">
+  
+  </header>
+  <div class="container-fluid" style="margin-top:60px">
+    <div class="row no-glutters mx-1">
+      <div class="pr-3 pl-3 px-lg-0 mb-3 mb-md-0 bg-white border-bottom col-12 d-block d-md-none">
               <h1 class="h6 text-secondary pt-2 pb-2 font-weight-bold mb-0 pt-3">
                 TOP STORY
               </h1>
@@ -145,7 +58,7 @@
                   <h6 class="h6 position-absolute p-2 color mb-0 text-uppercase font-weight-bold">
                     Politics
                   </h6>
-                  <img class="img-fluid pr-4" src="http://placekitten.com/g/200/300" />
+                  <img class="img-fluid" src="http://placekitten.com/g/200/300" alt="politics"/>
                 </div>
 
                 <div class="card-body p-0 mt-2">
@@ -162,8 +75,100 @@
                 </div>
               </div>
             </div>
-            <!-- My turn -->
-            <div class="my-3 my-md-0 py-md-0 px-3 pb-4 pt-3 bg-white position-relative border-bottom col-12">
+       <div class="left-content px-lg-0 col-12 col-md-5 col-lg-3 order-0 order-lg-1 order-md-0 p-0 med-sticky lg-sticky">
+            <div class="pr-3 pl-3 mb-3 bg-white col-12">
+              <div>
+                <h1 class="h6 text-secondary pt-2 pb-2 font-weight-bold mb-0 pt-3">
+                  FEATURED STORIES
+                </h1>
+              </div>
+              <div class="card border-0">
+                <div class="d-flex align-items-end">
+                  <h6 class="position-absolute p-2 color mb-0 text-uppercase font-weight-bold">
+                    Health
+                  </h6>
+                  <img class="card-img-top w-100 h-auto" src="http://placekitten.com/g/200/300"  alt="health"/>
+                </div>
+                <h5 class="pt-3 font-weight-bold black">
+                  Donald Trump Plans New Leadership PAC 'Win or Lose' Amid Fundraising
+                  Drive
+                </h5>
+                <p>
+                  <small>
+                    The Trump campaign has filed lawsuits in Pennsylvania challenging
+                    election results in the crucial state.</small>
+                </p>
+              </div>
+              <div class="card border-0">
+                <div class="d-flex align-items-end">
+                  <h6 class="position-absolute p-2 color mb-0 text-uppercase font-weight-bold">
+                    Health
+                  </h6>
+                  <img class="card-img-top w-100 h-auto" src="http://placekitten.com/g/200/300"  alt="health"/>
+                </div>
+                <h5 class="pt-3 font-weight-bold black">
+                  Donald Trump Plans New Leadership PAC 'Win or Lose' Amid Fundraising
+                  Drive
+                </h5>
+                <p>
+                  <small>
+                    The Trump campaign has filed lawsuits in Pennsylvania challenging
+                    election results in the crucial state.</small>
+                </p>
+              </div>
+
+
+
+              <div class="card border-0">
+                <div class="d-flex align-items-end">
+                  <p class="position-absolute p-2 color mb-0 text-uppercase font-weight-bold">
+                    U.S
+                  </p>
+                  <img class="card-img-top w-100 h-auto" src="http://placekitten.com/g/200/300" alt ="us"/>
+                </div>
+                <h5 class="pt-3 font-weight-bold black">
+                  Graham Wants Mail-In Vote 'Oversight' As McConnell Defends Trump
+                  Lawsuits
+                </h5>
+                <p>
+                  <small>The South Carolina Senator has backed President Trump over his
+                    claims of fraud in the election, offering his support to every
+                    avenue being pursued.</small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="middle-content col-12 col-md-7 p-md-0  order-1 order-lg-1  col-lg-5 px-sm-3 px-lg-3 pb-md-5">
+            <div class="row">
+              <!-- TOP STORY -->
+              <div class="pr-3 pl-3 px-lg-0 mb-3 mb-md-0 bg-white border-bottom col-12 d-none d-md-block">
+              <h1 class="h6 text-secondary pt-2 pb-2 font-weight-bold mb-0 pt-3">
+                TOP STORY
+              </h1>
+              <div class="card border-0 mb-3">
+                <div class="d-flex align-items-end">
+                  <h6 class="h6 position-absolute p-2 color mb-0 text-uppercase font-weight-bold">
+                    Politics
+                  </h6>
+                  <img class="img-fluid" src="http://placekitten.com/g/200/300" alt="politics"/>
+                </div>
+
+                <div class="card-body p-0 mt-2">
+                  <h5 class="card-tittle font-weight-bold black">
+                    Progressive Priorities at Risk as Biden Plans to Deal with McConnell
+                  </h5>
+                  <p class="card-text text-secondary">
+                    <small>Joe Biden campaigned on an ambitious political agenda that
+                      included progressive proposals on immigration, health care,
+                      climate change and criminal justice reform. But the prospect of a
+                      split Congress, led by Republican Majority Leader Mitch McConnell,
+                      puts those goals at risk.</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- MY TURN -->
+            <div class="my-3 my-md-0 py-md-0 px-3 pb-4 pt-3 px-lg-0 bg-white position-relative col-12 order-2 order-md-0">
               <h6 class="h6 text-left text-secondary">MY TURN</h6>
               <div class="row">
                 <div class="d-flex flex-column my-2 py-2 col-12 col-md-4">
@@ -224,8 +229,7 @@
               </div>
               <form action="/action_page.php" class="d-flex d-md-none flex-column bg-light px-3 py-4 border mx-3">
                 <div class="d-flex flex-row align-items-center mb-3">
-                  <img class="mr-2 img-icon" src="https://placekitten.com/96/139" alt="kitty" width="35px"
-                    height="35px" />
+                  <img class="mr-2 img-icon" src="https://placekitten.com/96/139" alt="kitty" />
                   <h6 class="font-weight-bolder mt-1">
                     START YOUR DAY WITH OUR TOP 5 CUTE KITTENS
                   </h6>
@@ -236,8 +240,8 @@
                 <button type="submit" class="btn color-reverse">FREE SIGN UP</button>
               </form>
             </div>
-            <!-- More stories -->
-            <div class="more-stories p-3 my-md-0 py-md-0 bg-white mb-3 col-12">
+            <!-- MORE STORIES -->
+            <div class="more-stories px-lg-0 p-3 my-md-0 py-md-0 bg-white mb-3 col-12 order-1 order-md-0">
               <h1 class="h6 text-secondary pt-2 pb-3 font-weight-bold mb-0 border-bottom">
                 MORE STORIES
               </h1>
@@ -247,7 +251,18 @@
                 <a class="h6 font-weight-bold black mb-3">Kushner, Ivanka, Don Jr. Resigned to Long Odds; Trump 'Brand'
                   Is,
                   Fight On</a>
-                <p>
+                <p class="mb-2 mb-md-4">
+                  <small>"No one should be surprised that Donald Trump is not going to do
+                    what the mainstream media wants him to do," says a senior campaign
+                    official.</small>
+                </p>
+              </div>        
+              <div class="ml-0 mt-3 border-bottom">
+                <img class="float-left mb-2 mr-3" src="https://placekitten.com/g/200/300" alt="" />
+                <a class="h6 font-weight-bold black mb-3">Kushner, Ivanka, Don Jr. Resigned to Long Odds; Trump 'Brand'
+                  Is,
+                  Fight On</a>
+                <p class="mb-2 mb-md-4">
                   <small>"No one should be surprised that Donald Trump is not going to do
                     what the mainstream media wants him to do," says a senior campaign
                     official.</small>
@@ -258,7 +273,7 @@
                 <a class="h6 font-weight-bold black mb-3">Kushner, Ivanka, Don Jr. Resigned to Long Odds; Trump 'Brand'
                   Is,
                   Fight On</a>
-                <p>
+                <p class="mb-2 mb-md-4">
                   <small>"No one should be surprised that Donald Trump is not going to do
                     what the mainstream media wants him to do," says a senior campaign
                     official.</small>
@@ -269,7 +284,7 @@
                 <a class="h6 font-weight-bold black mb-3">Kushner, Ivanka, Don Jr. Resigned to Long Odds; Trump 'Brand'
                   Is,
                   Fight On</a>
-                <p>
+                <p class="mb-2 mb-md-4">
                   <small>"No one should be surprised that Donald Trump is not going to do
                     what the mainstream media wants him to do," says a senior campaign
                     official.</small>
@@ -280,7 +295,7 @@
                 <a class="h6 font-weight-bold black mb-3">Kushner, Ivanka, Don Jr. Resigned to Long Odds; Trump 'Brand'
                   Is,
                   Fight On</a>
-                <p>
+                  <p class="mb-2 mb-md-4">
                   <small>"No one should be surprised that Donald Trump is not going to do
                     what the mainstream media wants him to do," says a senior campaign
                     official.</small>
@@ -291,80 +306,7 @@
                 <a class="h6 font-weight-bold black mb-3">Kushner, Ivanka, Don Jr. Resigned to Long Odds; Trump 'Brand'
                   Is,
                   Fight On</a>
-                <p>
-                  <small>"No one should be surprised that Donald Trump is not going to do
-                    what the mainstream media wants him to do," says a senior campaign
-                    official.</small>
-                </p>
-              </div>
-
-              <div class="mt-3 border-bottom">
-                <img class="float-left mb-2 mr-3" src="https://placekitten.com/g/200/300" alt="" />
-                <a class="h6 font-weight-bold black mb-3">Kushner, Ivanka, Don Jr. Resigned to Long Odds; Trump 'Brand'
-                  Is,
-                  Fight On</a>
-                <p>
-                  <small>"No one should be surprised that Donald Trump is not going to do
-                    what the mainstream media wants him to do," says a senior campaign
-                    official.</small>
-                </p>
-              </div>
-
-
-              <div class="mt-3 border-bottom">
-                <img class="float-left mb-2 mr-3" src="https://placekitten.com/g/200/300" alt="" />
-                <a class="h6 font-weight-bold black mb-3">Kushner, Ivanka, Don Jr. Resigned to Long Odds; Trump 'Brand'
-                  Is,
-                  Fight On</a>
-                <p>
-                  <small>"No one should be surprised that Donald Trump is not going to do
-                    what the mainstream media wants him to do," says a senior campaign
-                    official.</small>
-                </p>
-              </div>
-
-              <div class="mt-3 border-bottom">
-                <img class="float-left mb-2 mr-3" src="https://placekitten.com/g/200/300" alt="" />
-                <a class="h6 font-weight-bold black mb-3">Kushner, Ivanka, Don Jr. Resigned to Long Odds; Trump 'Brand'
-                  Is,
-                  Fight On</a>
-                <p>
-                  <small>"No one should be surprised that Donald Trump is not going to do
-                    what the mainstream media wants him to do," says a senior campaign
-                    official.</small>
-                </p>
-              </div>
-
-              <div class="mt-3 border-bottom">
-                <img class="float-left mb-2 mr-3" src="https://placekitten.com/g/200/300" alt="" />
-                <a class="h6 font-weight-bold black mb-3">Kushner, Ivanka, Don Jr. Resigned to Long Odds; Trump 'Brand'
-                  Is,
-                  Fight On</a>
-                <p>
-                  <small>"No one should be surprised that Donald Trump is not going to do
-                    what the mainstream media wants him to do," says a senior campaign
-                    official.</small>
-                </p>
-              </div>
-
-              <div class="mt-3 border-bottom">
-                <img class="float-left mb-2 mr-3" src="https://placekitten.com/g/200/300" alt="" />
-                <a class="h6 font-weight-bold black mb-3">Kushner, Ivanka, Don Jr. Resigned to Long Odds; Trump 'Brand'
-                  Is,
-                  Fight On</a>
-                <p>
-                  <small>"No one should be surprised that Donald Trump is not going to do
-                    what the mainstream media wants him to do," says a senior campaign
-                    official.</small>
-                </p>
-              </div>
-
-              <div class="mt-3 border-bottom">
-                <img class="float-left mb-2 mr-3" src="https://placekitten.com/g/200/300" alt="" />
-                <a class="h6 font-weight-bold black mb-3">Kushner, Ivanka, Don Jr. Resigned to Long Odds; Trump 'Brand'
-                  Is,
-                  Fight On</a>
-                <p>
+                  <p class="mb-2 mb-md-4">
                   <small>"No one should be surprised that Donald Trump is not going to do
                     what the mainstream media wants him to do," says a senior campaign
                     official.</small>
@@ -374,7 +316,7 @@
               <div class="mt-3 border-bottom">
                 <img class="float-left mb-2 mr-3" src="https://placekitten.com/g/200/300" alt="" />
                 <a class="h6 font-weight-bold black mb-3">What Does Fox News Do Now?</a>
-                <p>
+                <p class="mb-2 mb-md-4">
                   <small>"No one should be surprised that Donald Trump is not going to do
                     what the mainstream media wants him to do," says a senior campaign
                     official.</small>
@@ -386,14 +328,25 @@
                 <a class="h6 font-weight-bold black mb-3">Kushner, Ivanka, Don Jr. Resigned to Long Odds; Trump 'Brand'
                   Is,
                   Fight On</a>
-                <p>
+                  <p class="mb-2 mb-md-4">
+                  <small>"No one should be surprised that Donald Trump is not going to do
+                    what the mainstream media wants him to do," says a senior campaign
+                    official.</small>
+                </p>
+              </div>
+              <div class="mt-3 border-bottom">
+                <img class="float-left mb-2 mr-3" src="https://placekitten.com/g/200/300" alt="" />
+                <a class="h6 font-weight-bold black mb-3">Kushner, Ivanka, Don Jr. Resigned to Long Odds; Trump 'Brand'
+                  Is,
+                  Fight On</a>
+                  <p class="mb-2 mb-md-4">
                   <small>"No one should be surprised that Donald Trump is not going to do
                     what the mainstream media wants him to do," says a senior campaign
                     official.</small>
                 </p>
               </div>
 
-              <div class="mt-3 border-bottom mb-3 ">
+              <div class="mt-3 mb-3 ">
                 <img class="float-left mb-2 mr-3" src="https://placekitten.com/g/200/300" alt="" />
                 <a class="h6 font-weight-bold black mb-3">Kushner, Ivanka, Don Jr. Resigned to Long Odds; Trump 'Brand'
                   Is,
@@ -405,16 +358,16 @@
                 </p>
               </div>
             </div>
+            </div>
           </div>
-
-          <div class="right-content col-12  col-lg-3 p-0 position-md-sticky h-100" style="top:0%">
+          <div class="right-content col-12 px-lg-3 col-lg-4 p-0 h-100 order-0 order-md-1 lg-sticky">
             <!-- THE DEBATE -->
-            <div
-              class="my-3 mt-lg-3 my-lg-0 px-3 px-lg-0 pb-lg-0 pt-lg-0 pb-4 pt-lg-0 pt-3 bg-white position-relative border-bottom col-12">
+            <div id='debate'
+              class="my-3 mt-lg-3 my-lg-3 px-3 px-lg-0 pb-lg-0 pt-lg-0 pb-4 pt-lg-0 pt-3 bg-white position-relative border-bottom col-12">
               <h6 class="h6 text-left text-secondary">THE DEBATE</h6>
               <div>
                 <div class="d-flex flex-row border-top-manual border-bottom-double-manual mb-3 py-3">
-                  <img src="https://placekitten.com/200/286" class="rounded-circle mr-2" width="70px" height="65px"
+                  <img src="https://placekitten.com/200/286" class="rounded-circle mr-2" width="70" height="65"
                     alt="kitty" />
                   <div class="d-flex flex-column justify-content-center">
                     <p class="font-weight-bolder m-0">Feed All The Kittens Milk Now</p>
@@ -436,16 +389,16 @@
                       <span class="font-weight-bold text-secondary">THE NEKO MASTER</span>
                     </p>
                   </div>
-                  <img src="https://placekitten.com/200/285" class="rounded-circle ml-auto" width="70px" height="65px"
+                  <img src="https://placekitten.com/200/285" class="rounded-circle ml-auto" width="70" height="65"
                     alt="kitty" />
                 </div>
               </div>
             </div>
             <!-- Opinion -->
-            <div class=" bg-white border-bottom col-12 ">
+            <div class=" bg-white col-12 my-3 pb-5">
               <h6 class="h6 text-left text-secondary">OPINION</h6>
               <div class="d-flex flex-row justify-content-start border-bottom my-2 py-2">
-                <img src="https://placekitten.com/200/283" class="rounded-circle mr-2" width="70px" height="65px"
+                <img src="https://placekitten.com/200/283" class="rounded-circle mr-2" width="70" height="65"
                   alt="kitty" />
                 <div class="d-flex flex-column justify-content-center">
                   <p class="h6 font-weight-bolder">Can Kittens Rule The World Again?</p>
@@ -455,7 +408,7 @@
                 </div>
               </div>
               <div class="d-flex flex-row justify-content-start border-bottom my-2 py-2">
-                <img src="https://placekitten.com/200/283" class="rounded-circle mr-2" width="70px" height="65px"
+                <img src="https://placekitten.com/200/283" class="rounded-circle mr-2" width="70" height="65"
                   alt="kitty" />
                 <div class="d-flex flex-column justify-content-center">
                   <p class="h6 font-weight-bolder text-capitalize">
@@ -467,7 +420,7 @@
                 </div>
               </div>
               <div class="d-flex flex-row justify-content-start border-bottom my-2 py-2">
-                <img src="https://placekitten.com/200/283" class="rounded-circle mr-2" width="70px" height="65px"
+                <img src="https://placekitten.com/200/283" class="rounded-circle mr-2" width="70" height="65"
                   alt="kitty" />
                 <div class="d-flex flex-column justify-content-center">
                   <p class="h6 font-weight-bolder text-capitalize">
@@ -479,7 +432,7 @@
                 </div>
               </div>
               <div class="d-flex flex-row justify-content-start border-bottom my-2 py-2">
-                <img src="https://placekitten.com/200/283" class="rounded-circle mr-2" width="70px" height="65px"
+                <img src="https://placekitten.com/200/283" class="rounded-circle mr-2" width="70" height="65"
                   alt="kitty" />
                 <div class="d-flex flex-column justify-content-center">
                   <p class="h6 font-weight-bolder">
@@ -491,7 +444,7 @@
                 </div>
               </div>
               <div class="d-flex flex-row justify-content-start border-bottom my-2 py-2">
-                <img src="https://placekitten.com/200/283" class="rounded-circle mr-2" width="70px" height="65px"
+                <img src="https://placekitten.com/200/283" class="rounded-circle mr-2" width="70" height="65"
                   alt="kitty" />
                 <div class="d-flex flex-column justify-content-center">
                   <p class="h6 font-weight-bolder">Did the cats build the pyramids?</p>
@@ -500,8 +453,8 @@
                   </p>
                 </div>
               </div>
-              <div class="d-flex flex-row justify-content-start border-bottom my-2 py-2">
-                <img src="https://placekitten.com/200/283" class="rounded-circle mr-2" width="70px" height="65px"
+              <div class="d-flex flex-row justify-content-start my-2 py-2">
+                <img src="https://placekitten.com/200/283" class="rounded-circle mr-2" width="70" height="65"
                   alt="kitty" />
                 <div class="d-flex flex-column justify-content-center">
                   <p class="h6 font-weight-bolder">
@@ -511,132 +464,153 @@
                     CONFIRMS THE NEKO MASTER
                   </p>
                 </div>
+
+              </div>
+              <div class="row justify-content-center">
+                <form action="/action_page.php"
+                  class="d-none d-md-flex flex-column  bg-light px-3 py-4 border mx-3 col-5 form-lg">
+                  <div class="d-flex flex-row align-items-center mb-3">
+                    <img class="mr-2 img-icon" src="https://placekitten.com/96/139" alt="kitty" width="35"
+                      height="35" />
+                    <h6 class="font-weight-bolder mt-1">
+                      START YOUR DAY WITH OUR TOP 5 CUTE KITTENS
+                    </h6>
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Enter email" id="email2" />
+                  </div>
+                  <button type="submit" class="btn color-reverse">FREE SIGN UP</button>
+                </form>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <!-- TOP STORY -->
-      <!-- Featured stories -->
+    </div>
+  </div>
 
-
-
-
-
-
-      <!-- THE MAGAZINE -->
-      <div class="col-12">
-        <div class="article bg-white pr-3 pl-3 pt-3 pb-1">
-          <div class="d-flex justify-content-center align-items-center mb-3">
-            <span class="font-weight-bold">
-              <img class="mr-2" src="https://placekitten.com/g/200/300" alt="" /> IN
-              THE MAGAZINE
-            </span>
-          </div>
-
-
-        </div>
-
-        <div class="d-md-flex pr-3 pl-3 mb-3 bg-white border-bottom align-items-md-start">
-          <div class="col-12 col-md-3">
-            <div class="d-flex align-items-end  ">
-              <img class="card-img" src="https://placekitten.com/g/200/300" alt="" />
-              <h6 class="h6 position-absolute p-2 color mb-0 text-uppercase font-weight-bold">
-                November 13 issue
-              </h6>
-            </div>
-
-            <h1 class="h6 text-center font-weight-bold all-features  p-2 mb-0">
-              SEE ALL FEATURES >
-            </h1>
-          </div>
-
-
-
-          <div class="bg-white col-xs-1 col-md-3">
-            <img class="card-img" src="https://placekitten.com/g/200/300" alt="" />
-            <div class="d-flex pt-2 align-items-center">
-              <h6 class="p-1 mr-2 h6text-uppercase font-weight-bold color-reverse">
-                COVER
-              </h6>
-              <h6 class="h6 text-uppercase font-weight-bold color">WORLD</h6>
-            </div>
-            <h1 class="h6 font-weight-bold black">
-              Exclusive: 600 U.S. Groups Linked to China Communist Party Influence
-              Effort
-            </h1>
-          </div>
-
-          <div class="bg-white col-xs-1 col-md-3">
-            <img class="card-img" src="https://placekitten.com/g/200/300" alt="" />
-            <div class="d-flex pt-2 align-items-center">
-              <h6 class="p-1 mr-2 h6text-uppercase font-weight-bold color-reverse">
-                COVER
-              </h6>
-              <h6 class="h6 text-uppercase font-weight-bold color">WORLD</h6>
-            </div>
-            <h1 class="h6 font-weight-bold black">
-              Exclusive: 600 U.S. Groups Linked to China Communist Party Influence
-              Effort
-            </h1>
-          </div>
-
-
-          <div class="bg-white col-md-3">
-            <img class="card-img" src="https://placekitten.com/g/200/300" alt="" />
-            <div class="d-flex pt-2 align-items-center">
-              <h6 class="p-1 mr-2 h6text-uppercase font-weight-bold color-reverse">
-                COVER
-              </h6>
-              <h6 class="h6 text-uppercase font-weight-bold color">WORLD</h6>
-            </div>
-            <h1 class="h6 font-weight-bold black">
-              Exclusive: 600 U.S. Groups Linked to China Communist Party Influence
-              Effort
-            </h1>
-          </div>
-
-
-        </div>
-
-
-        <div class="d-md-flex">
-          <div class="bg-white col-xs-1 col-md-3">
-            <img class="card-img" src="https://placekitten.com/g/200/300" alt="" />
-            <div class="d-flex pt-2 align-items-center">
-              <h6 class="p-1 mr-2 h6text-uppercase font-weight-bold color-reverse">
-                COVER
-              </h6>
-              <h6 class="h6 text-uppercase font-weight-bold color">WORLD</h6>
-            </div>
-            <h1 class="h6 font-weight-bold black">
-              Exclusive: 600 U.S. Groups Linked to China Communist Party Influence
-              Effort
-            </h1>
-          </div>
-          <div class="bg-white col-xs-12 col-md-3">
-            <div class="d-flex align-items-end mb-3 ">
-              <img class="card-img" src="https://placekitten.com/g/200/300" alt="">
-              <h6 class="p-1 h6 text-uppercase font-weight-bold color-reverse position-absolute mb-n2"> In Focus</h6>
-            </div>
-            <h1 class="h6 font-weight-bold black pb-4">ANNIVERSARY DAY </h1>
-          </div>
-        </div>
-      </div>
-      <!-- EDITORS PICKS -->
-      <div class="article bg-white mb-3 pr-3 pl-3 pt-3 pb-1 border-bottom col-12">
-        <div class="d-flex justify-content-center align-items-center mb-3 pb-3 border-bottom">
+  <div class="container-fluid">
+    <div class="row no-glutters mx-1">
+       <div class="col-12 bg-white">
+         <div class="article bg-white pr-3 pl-3 pt-3 pb-1">
+        <div class="d-flex justify-content-center align-items-center mb-3 border-bottom pb-3">
           <span class="font-weight-bold">
-            <img class="mr-2" src="https://placekitten.com/g/200/300" alt="" />
+            <img class="mr-2" src="https://placekitten.com/g/200/300" alt="Magazine" /> IN
+            THE MAGAZINE
+          </span>
+        </div>
+
+
+      </div>
+
+      <div class="d-md-flex  pr-0 pl-0 pr-md-3 pl-md-3 mb-3 align-items-start">
+        <div class="col-12 col-md-3">
+          <div class="d-flex align-items-end  ">
+            <img class="card-img" src="https://placekitten.com/g/200/300" alt="issues" />
+            <h6 class="h6 position-absolute p-2 color mb-0 text-uppercase font-weight-bold">
+              November 13 issue
+            </h6>
+          </div>
+
+          <h1 class="h6 text-center font-weight-bold all-features  p-2 mb-0">
+            SEE ALL FEATURES >
+          </h1>
+        </div>
+
+
+
+        <div class="bg-white col-12 col-md-3">
+          <img class="card-img" src="https://placekitten.com/g/200/300" alt="cover" />
+          <div class="d-flex pt-2 align-items-center">
+            <h6 class="p-1 mr-2 h6text-uppercase font-weight-bold color-reverse">
+              COVER
+            </h6>
+            <h6 class="h6 text-uppercase font-weight-bold color">WORLD</h6>
+          </div>
+          <h1 class="h6 font-weight-bold black">
+            Exclusive: 600 U.S. Groups Linked to China Communist Party Influence
+            Effort
+          </h1>
+        </div>
+
+        <div class="bg-white col-12 col-md-3">
+          <img class="card-img" src="https://placekitten.com/g/200/300" alt="cover" />
+          <div class="d-flex pt-2 align-items-center">
+            <h6 class="p-1 mr-2 h6text-uppercase font-weight-bold color-reverse">
+              COVER
+            </h6>
+            <h6 class="h6 text-uppercase font-weight-bold color">WORLD</h6>
+          </div>
+          <h1 class="h6 font-weight-bold black">
+            Exclusive: 600 U.S. Groups Linked to China Communist Party Influence
+            Effort
+          </h1>
+        </div>
+
+
+        <div class="bg-white col-12 col-md-3">
+          <img class="card-img" src="https://placekitten.com/g/200/300" alt="cover" />
+          <div class="d-flex pt-2 align-items-center">
+            <h6 class="p-1 mr-2 h6text-uppercase font-weight-bold color-reverse">
+              COVER
+            </h6>
+            <h6 class="h6 text-uppercase font-weight-bold color">WORLD</h6>
+          </div>
+          <h1 class="h6 font-weight-bold black">
+            Exclusive: 600 U.S. Groups Linked to China Communist Party Influence
+            Effort
+          </h1>
+        </div>
+
+
+      </div>
+
+
+      <div class="d-md-flex pr-0 pl-0 pr-md-3 pl-md-3">
+        <div class="bg-white col-12 col-md-3">
+          <img class="card-img" src="https://placekitten.com/g/200/300" alt="cover" />
+          <div class="d-flex pt-2 align-items-center">
+            <h6 class="p-1 mr-2 h6text-uppercase font-weight-bold color-reverse">
+              COVER
+            </h6>
+            <h6 class="h6 text-uppercase font-weight-bold color">WORLD</h6>
+          </div>
+          <h1 class="h6 font-weight-bold black">
+            Exclusive: 600 U.S. Groups Linked to China Communist Party Influence
+            Effort
+          </h1>
+        </div>
+        <div class="bg-white col-12 col-md-3">
+          <div class="d-flex align-items-end mb-3 ">
+            <img class="card-img" src="https://placekitten.com/g/200/300" alt="anniversary">
+            <h6 class="p-1 h6 text-uppercase font-weight-bold color-reverse position-absolute mb-n2"> In Focus</h6>
+          </div>
+          <h1 class="h6 font-weight-bold black pb-4">ANNIVERSARY DAY </h1>
+        </div>
+        <div class="bg-white col-12 col-md-3">
+          <div class="d-flex align-items-end mb-3 ">
+            <img class="card-img" src="https://placekitten.com/g/200/300" alt="in focus">
+            <h6 class="p-1 h6 text-uppercase font-weight-bold color-reverse position-absolute mb-n2"> In Focus</h6>
+          </div>
+          <h1 class="h6 font-weight-bold black pb-4">PARTY DAY </h1>
+        </div>
+      </div>
+       </div>
+      <!-- EDITORS PICKS -->
+      <div class="col-12 bg-white">
+        <div class="row">
+          <div class="article bg-white mb-3 mb-lg-0 pr-3 pl-3 pt-3 pb-1 border-bottom">
+        <div class="d-flex justify-content-center align-items-center mb-3 pb-3 border-bottom col-12">
+          <span class="font-weight-bold">
+            <img class="mr-2" src="https://placekitten.com/g/200/300" alt="editors pick" />
             EDITOR'S PICK</span>
         </div>
-        <div class="d-md-flex">
+        <div class="row">
+          <div class="d-md-flex col-lg-6 px-0">
           <div class="card border-0 col-md-6 my-3">
             <div class="d-flex align-items-end">
               <h6 class="position-absolute p-2 color mb-0 text-uppercase font-weight-bold">
                 Health
               </h6>
-              <img class="card-img-top w-100 h-auto" src="http://placekitten.com/g/200/300" />
+              <img class="card-img-top w-100 h-auto" src="http://placekitten.com/g/200/300" alt="health"/>
             </div>
             <h5 class="pt-3 font-weight-bold black">
               Donald Trump Plans New Leadership PAC 'Win or Lose' Amid Fundraising
@@ -653,7 +627,7 @@
               <h6 class="position-absolute p-2 color mb-0 text-uppercase font-weight-bold">
                 Health
               </h6>
-              <img class="card-img-top w-100 h-auto" src="http://placekitten.com/g/200/300" />
+              <img class="card-img-top w-100 h-auto" src="http://placekitten.com/g/200/300" alt="health" />
             </div>
             <h5 class="pt-3 font-weight-bold black">
               Donald Trump Plans New Leadership PAC 'Win or Lose' Amid Fundraising
@@ -666,13 +640,13 @@
             </p>
           </div>
         </div>
-        <div class="d-md-flex">
+        <div class="d-md-flex col-lg-6 px-0">
           <div class="card border-0 col-md-6 my-3">
             <div class="d-flex align-items-end">
               <h6 class="position-absolute p-2 color mb-0 text-uppercase font-weight-bold">
                 Health
               </h6>
-              <img class="card-img-top w-100 h-auto" src="http://placekitten.com/g/200/300" />
+              <img class="card-img-top w-100 h-auto" src="http://placekitten.com/g/200/300" alt="health" />
             </div>
             <h5 class="pt-3 font-weight-bold black">
               Donald Trump Plans New Leadership PAC 'Win or Lose' Amid Fundraising
@@ -689,7 +663,7 @@
               <h6 class="position-absolute p-2 color mb-0 text-uppercase font-weight-bold">
                 Health
               </h6>
-              <img class="card-img-top w-100 h-auto" src="http://placekitten.com/g/200/300" />
+              <img class="card-img-top w-100 h-auto" src="http://placekitten.com/g/200/300" alt="health" />
             </div>
             <h5 class="pt-3 font-weight-bold black">
               Donald Trump Plans New Leadership PAC 'Win or Lose' Amid Fundraising
@@ -702,13 +676,15 @@
             </p>
           </div>
         </div>
-        <div class="d-md-flex">
+        </div>
+        <div class="row">
+          <div class="d-md-flex col-lg-6 px-0">
           <div class="card border-0 my-3 col-md-6">
             <div class="d-flex align-items-end">
               <h6 class="position-absolute p-2 color mb-0 text-uppercase font-weight-bold">
                 Health
               </h6>
-              <img class="card-img-top w-100 h-auto" src="http://placekitten.com/g/200/300" />
+              <img class="card-img-top w-100 h-auto" src="http://placekitten.com/g/200/300" alt="health" />
             </div>
             <h5 class="pt-3 font-weight-bold black">
               Donald Trump Plans New Leadership PAC 'Win or Lose' Amid Fundraising
@@ -725,7 +701,7 @@
               <h6 class="position-absolute p-2 color mb-0 text-uppercase font-weight-bold">
                 Health
               </h6>
-              <img class="card-img-top w-100 h-auto" src="http://placekitten.com/g/200/300" />
+              <img class="card-img-top w-100 h-auto" src="http://placekitten.com/g/200/300" alt="health" />
             </div>
             <h5 class="pt-3 font-weight-bold black">
               Donald Trump Plans New Leadership PAC 'Win or Lose' Amid Fundraising
@@ -738,13 +714,13 @@
             </p>
           </div>
         </div>
-        <div class="d-md-flex">
+        <div class="d-md-flex col-lg-6 px-0">
           <div class="card border-0 my-3 col-md-6">
             <div class="d-flex align-items-end">
               <h6 class="position-absolute p-2 color mb-0 text-uppercase font-weight-bold">
                 Health
               </h6>
-              <img class="card-img-top w-100 h-auto" src="http://placekitten.com/g/200/300" />
+              <img class="card-img-top w-100 h-auto" src="http://placekitten.com/g/200/300" alt="health"/>
             </div>
             <h5 class="pt-3 font-weight-bold black">
               Donald Trump Plans New Leadership PAC 'Win or Lose' Amid Fundraising
@@ -761,7 +737,7 @@
               <h6 class="position-absolute p-2 color mb-0 text-uppercase font-weight-bold">
                 Health
               </h6>
-              <img class="card-img-top w-100 h-auto" src="http://placekitten.com/g/200/300" />
+              <img class="card-img-top w-100 h-auto" src="http://placekitten.com/g/200/300" alt="health"/>
             </div>
             <h5 class="pt-3 font-weight-bold black">
               Donald Trump Plans New Leadership PAC 'Win or Lose' Amid Fundraising
@@ -774,11 +750,16 @@
             </p>
           </div>
         </div>
+        </div>
       </div>
-      <!-- Subscribe -->
-      <div class="my-3 px-3 pb-4 pt-3 bg-white position-relative border-bottom col-12">
+        </div>
+      </div>
+      <div class="row bg-white ">
+        <!-- Subscribe -->
+        <div class="col-12 bg-white col-lg-7">
+        <div class="my-3 my-lg-0 px-3 px-lg-0 pb-4 pt-3 bg-white position-relative">
         <h6 class="text-danger font-weight-bolder">SUBSCRIBE</h6>
-        <div class="bg-light position-relative px-4 py-4 d-md-flex align-items-center">
+        <div class="bg-light position-relative px-4 px-lg-0 py-4 d-md-flex align-items-center">
           <div class="d-flex mr-md-5">
             <div class="position-relative px-md-0 mx-md-0">
               <div class="px-3">
@@ -790,7 +771,7 @@
             </div>
           </div>
           <div class="d-flex flex-column align-items-center align-items-md-start ml-md-3 pl-md-5">
-            <h1 class="black h4 font-weight-bold text-center text-capitalize mt-1 text-md-left "
+            <h1 class="black h5 font-weight-bold text-center text-capitalize mt-1 text-md-left "
               style="text-indent: 5px">
               In-depth Stories You Don't See Elsewhere About Topics You Want to Read!
             </h1>
@@ -800,22 +781,25 @@
                 Choose it now or regret it your entire life!
               </p>
             </div>
-            <button class="btn color-reverse">SUBSCRIBE</button>
+            <button type="submit" class="btn color-reverse">SUBSCRIBE</button>
           </div>
         </div>
       </div>
+      </div>
       <!-- Newsletter -->
-      <div class="my-3 px-3 pb-4 pt-3 bg-light position-relative border-bottom col-12">
+      <div class="col-12 bg-white col-lg-5 d-flex">
+        <div class="my-3 my-lg-0 px-3 pb-4 pb-md-0 pt-3 bg-white position-relative ">
         <h6 class="text-danger font-weight-bolder">NEWSLETTER</h6>
-        <div class="d-md-flex">
-          <div class="col-md-6 pr-md-0">
-            <img src="https://placekitten.com/410/287" alt="kitten" width="100%" />
+        <div class="d-md-flex News" id="News">
+          <div class="col-md-6 pr-md-0 p-0 ">
+            <img src="https://placekitten.com/410/800" alt="kitten" class="img-fluid w-100 sm-img"/>
+
           </div>
           <div class="text-center py-4 border border-bottom-0 col-md-6 pr-md-0">
             <p class="h6">THE NEKO MASTER</p>
             <p class="my-3">See why nearly 6 billion of people worship kittens</p>
-            <form class="d-flex  flex-row justify-content-center" action="/action_page.php">
-              <input type="email" class="form-control News rad-0" placeholder="Enter email" name="email" />
+            <form class="form-group row d-flex  flex-row justify-content-center" action="/action_page.php">
+              <input type="email" class="form-control rad-0 col-6" placeholder="Enter email" name="email" />
               <button type="submit" class="btn color-reverse rad-0">
                 FREE SIGN UP
               </button>
@@ -823,13 +807,18 @@
           </div>
         </div>
       </div>
+      </div>
+      </div>
+
     </div>
+
   </div>
+
   <footer class="my-3 px-3 pb-4 pt-3 bg-light position-relative">
-    <div class="border-bottom">
-      <h1 class="h1 text-danger">Kittensweek</h1>
-      <p><small>&#169; 2020 NEWSWEEK DIGITAL LLC</p></small>
-      <ul class="d-flex flex-row list-unstyled">
+    <div class="border-bottom d-md-flex align-items-center justify-content-start">
+      <h1 class="h1 text-danger mr-md-3">Kittensweek</h1>
+      <p><small>&#169; 2020 NEWSWEEK DIGITAL LLC</small></p>
+      <ul class="d-flex flex-row list-unstyled ml-md-auto">
         <li class="mx-1"><i class="fas fa-cat text-secondary"></i></li>
         <li class="mx-1"><i class="fas fa-cat text-secondary"></i></li>
         <li class="mx-1"><i class="fas fa-cat text-secondary"></i></li>
@@ -864,12 +853,13 @@
       <p class="mx-2 text-secondary"><small>Archieve</small></p>
     </div>
   </footer>
+
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-  </script>
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
-  </script>
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
