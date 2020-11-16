@@ -229,8 +229,11 @@ h6,
   height: 73.43px;
 }
 
-footer i {
+footer i{
   font-size: 26px;
+  color: #606161;
+}
+.hover-black{
   color: #606161;
 }
 footer .iconify {
@@ -247,4 +250,12 @@ footer .iconify {
   height: 26px;
   width: 26px;
   color: #606161;
+}
+
+.hover-blue:hover{
+  color: rgb(96, 156, 233);
+}
+
+.hover-black:hover{
+  color: black;
 }
