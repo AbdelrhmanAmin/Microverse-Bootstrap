@@ -1,9 +1,9 @@
 button {
-  line-height: initial !important;
+  line-height: initial;
 }
 
 .navbar-toggler-icon {
-  width: 1.1em !important;
+  width: 1.1em;
 }
 
 .bg-danger,
@@ -50,10 +50,6 @@ body {
   height: 30px;
 }
 
-p {
-  margin: 0 !important;
-}
-
 .label {
   bottom: -5px;
   font-size: 11px;
@@ -87,25 +83,25 @@ p {
   color: black;
 }
 
-.more-stories img {
-  height: 95px !important;
-  width: 95px !important;
-}
-
-.img-responsive {
-  width: 100% !important;
+.stories-img {
+  height: 95px;
+  width: 95px;
 }
 
 .card img,
 .card-img {
   width: 100%;
-  height: 250px !important;
+  height: 250px;
 }
 
-.article span img,
-.img-icon {
-  width: 29px !important;
-  height: 28px !important;
+.icon-logo {
+  flex: none;
+  display: block;
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
+    no-repeat #f72210;
+  margin-right: 10px;
 }
 
 h1,
@@ -192,38 +188,38 @@ h6,
   }
 
   nav {
-    height: 70px !important;
+    height: 70px;
   }
 
   .navbar-brand {
-    padding-top: 0 !important;
+    padding-top: 0;
   }
 
   .form-lg {
-    flex: 0 0 100% !important;
-    max-width: 100% !important;
+    flex: 0 0 80%;
+    max-width: 100%;
   }
 }
 
-.max-height{
+.max-height {
   height: 400px;
 }
 
-.hidden-img img{
+.hidden-img img {
   height: 110px;
   width: 110px;
 }
 
-.first-hidden{
-  height: 73.43px!important;
+.first-hidden {
   border: #f62210;
+  height: 73.43px;
 }
 
-footer i{
+footer i {
   font-size: 26px;
   color: #606161;
 }
-footer .iconify{
+footer .iconify {
   height: 26px;
   width: 26px;
   color: #606161;
