@@ -99,7 +99,8 @@ body {
   display: block;
   width: 29px;
   height: 28px;
-  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
+  background:
+    url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
     no-repeat #f72210;
   margin-right: 10px;
 }
@@ -120,9 +121,11 @@ h6,
 .middle-content {
   background: white;
 }
+
 .search-div {
   width: 10%;
 }
+
 .search-nav {
   width: 60%;
 }
@@ -132,10 +135,7 @@ h6,
   margin-top: 69px;
 }
 
-
-
-.logo-content img{
- 
+.logo-content img {
   width: 132px;
   height: 20px;
 }
@@ -157,11 +157,14 @@ h6,
   position: absolute;
   right: 0;
 }
+
 .cover-img {
-  background: url(https://placekitten.com/600/480) center center / cover
+  background:
+    url(https://placekitten.com/600/480) center center / cover
     no-repeat;
   height: 170px;
 }
+
 @media (min-width: 768px) {
   #debate {
     margin-top: -30px;
@@ -176,6 +179,7 @@ h6,
     left: 100px;
     top: 10px;
   }
+
   .cover-img {
     height: initial;
   }
@@ -185,6 +189,7 @@ h6,
   .cover-img {
     height: initial;
   }
+
   .h4 {
     font-size: 4rem;
   }
@@ -208,8 +213,7 @@ h6,
     max-width: 100%;
   }
 
-
-  .logo-content img{
+  .logo-content img {
     width: 296px;
     height: auto;
   }
@@ -229,33 +233,25 @@ h6,
   height: 73.43px;
 }
 
-footer i{
-  font-size: 26px;
-  color: #606161;
-}
-.hover-black{
-  color: #606161;
-}
-footer .iconify {
-  height: 26px;
-  width: 26px;
-  color: #606161;
-}
-
 footer i {
   font-size: 26px;
   color: #606161;
 }
+
+.hover-black {
+  color: #606161;
+}
+
 footer .iconify {
   height: 26px;
   width: 26px;
   color: #606161;
 }
 
-.hover-blue:hover{
+.hover-blue:hover {
   color: rgb(96, 156, 233);
 }
 
-.hover-black:hover{
+.hover-black:hover {
   color: black;
 }
