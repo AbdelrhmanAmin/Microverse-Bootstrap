@@ -2,7 +2,7 @@
 
 > In this project we did a responsive design of Newsweek Homepage.
 
-![screenshot](../abdo-branch/screenshot.png)
+![screenshot](../src/screenshot.png)
 
 In this project, we clone the Newsweek homepage using semantic HTML5 elements that are appropriately sized and positioned.
 We use bootstrap to position and sizing the elements, and make the page responsive at the Bootstrap breakpoints.
