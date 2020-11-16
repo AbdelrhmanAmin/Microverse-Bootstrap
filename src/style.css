@@ -209,4 +209,12 @@ h6,
     height: 280px !important;
   }
 }
->>>>>>> 3119a658d44e9f832cf1d8912db6efc9b3b0f4ab
+footer i{
+  font-size: 26px;
+  color: #606161;
+}
+footer .iconify{
+  height: 26px;
+  width: 26px;
+  color: #606161;
+}
