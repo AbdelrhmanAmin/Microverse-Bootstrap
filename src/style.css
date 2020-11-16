@@ -88,19 +88,12 @@ body {
   width: 95px;
 }
 
-.card img,
-.card-img {
-  width: 100%;
-  height: 250px;
-}
-
 .icon-logo {
   flex: none;
   display: block;
   width: 29px;
   height: 28px;
-  background:
-    url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
     no-repeat #f72210;
   margin-right: 10px;
 }
@@ -159,12 +152,20 @@ h6,
 }
 
 .cover-img {
-  background:
-    url(https://placekitten.com/600/480) center center / cover
+  background: url(https://placekitten.com/600/480) center center / cover
     no-repeat;
   height: 170px;
 }
-
+.mag-img {
+  background: url(https://placekitten.com/200/300) center center / cover
+    no-repeat;
+  height: 250px;
+}
+.mag-img-1 {
+  background: url(https://placekitten.com/200/300) center center / cover
+    no-repeat;
+  height: 300px;
+}
 @media (min-width: 768px) {
   #debate {
     margin-top: -30px;
