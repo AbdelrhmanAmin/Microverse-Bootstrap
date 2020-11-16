@@ -9,7 +9,7 @@ We use bootstrap to position and sizing the elements, and make the page responsi
 
 ## Live Demo 
 
-- [Visit Page] (https://raw.githack.com/AbdelrhmanAmin/Microverse-Bootstrap/feature-branch/index.html)
+[Visit Page](https://raw.githack.com/AbdelrhmanAmin/Microverse-Bootstrap/feature-branch/index.html)
 
 ## Built With
 
