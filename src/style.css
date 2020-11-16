@@ -132,6 +132,13 @@ h6,
   margin-top: 69px;
 }
 
+
+
+.logo-content img{
+  width: 132px;
+  height: 20px;
+}
+
 .angle {
   width: 0;
   height: 0;
@@ -198,6 +205,11 @@ h6,
   .form-lg {
     flex: 0 0 80%;
     max-width: 100%;
+  }
+
+  .logo-content img{
+    width:100%;
+    height: auto;
   }
 }
 
