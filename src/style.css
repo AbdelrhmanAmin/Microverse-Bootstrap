@@ -135,6 +135,7 @@ h6,
 
 
 .logo-content img{
+ 
   width: 132px;
   height: 20px;
 }
@@ -207,8 +208,9 @@ h6,
     max-width: 100%;
   }
 
+
   .logo-content img{
-    width:100%;
+    width: 296px;
     height: auto;
   }
 }
