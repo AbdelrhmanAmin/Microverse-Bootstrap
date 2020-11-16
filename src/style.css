@@ -113,24 +113,32 @@ h6,
   }
 }
 
-
-.search-div{
-  width: 8%;
+.search-div {
+  width: 10%;
+}
+.search-nav {
+  width: 60%;
 }
 
-.nav-2{
-  z-index: 1299;
-  width: 95%;
+.nav-1 {
+  height: 50px;
+  margin-top: 80px;
 }
 
-.nav-2::before{
-  width: 2px;
+.angle {
+  width: 0;
+  height: 0;
+  border-top: 15px solid #f72210;
+  border-left: 10px solid transparent;
+  margin-left: 1px;
   position: absolute;
-    top: 0;
-    right: 0;
-    content: "";
-    display: block;
-    background-color: #f72210;
-    border-left: 12px solid white;
-    border-top: 13px solid #f72210;
+  right: 84px;
+}
+
+.colored-space {
+  width: 84px;
+  height: 15px;
+  background-color: #f72210;
+  position: absolute;
+  right: 0;
 }
