@@ -1,0 +1,265 @@
+button {
+  line-height: initial;
+}
+
+.navbar-toggler-icon {
+  width: 1.1em;
+}
+
+.bg-danger,
+.btn-danger {
+  background-color: #f72210 !important;
+}
+
+.bg-warning,
+.btn-warning {
+  background-color: #ffe400 !important;
+}
+
+.custom-font {
+  font-size: 12px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f4f5f7;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.border-top-manual {
+  border-top: 5px solid #dee2e6 !important;
+}
+
+.border-bottom-double-manual {
+  border-bottom: 3px double #dee2e6;
+}
+
+.border-bottom-manual {
+  border-bottom: 5px solid #dee2e6 !important;
+}
+
+.centering-absolute {
+  left: 45%;
+  top: 45%;
+  width: 30px;
+  height: 30px;
+}
+
+.label {
+  bottom: -5px;
+  font-size: 11px;
+}
+
+.img-distort {
+  width: 170px;
+  height: 220px;
+}
+
+.img-distort-con {
+  left: 50px;
+  top: 10px;
+}
+
+.rad-0 {
+  border-radius: 0;
+}
+
+.color {
+  background-color: #f5f5f5;
+  color: #f62210;
+}
+
+.color-reverse {
+  color: #f5f5f5;
+  background-color: #f62210;
+}
+
+.black {
+  color: black;
+}
+
+.stories-img {
+  height: 95px;
+  width: 95px;
+}
+
+.icon-logo {
+  flex: none;
+  display: block;
+  width: 29px;
+  height: 28px;
+  background:
+    url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
+    no-repeat #f72210;
+  margin-right: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.tittle,
+.nav2 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.left-content,
+.right-content,
+.middle-content {
+  background: white;
+}
+
+.search-div {
+  width: 10%;
+}
+
+.search-nav {
+  width: 60%;
+}
+
+.nav-1 {
+  height: 50px;
+  margin-top: 69px;
+}
+
+.logo-content img {
+  width: 132px;
+  height: 20px;
+}
+
+.angle {
+  width: 0;
+  height: 0;
+  border-top: 15px solid #f72210;
+  border-left: 10px solid transparent;
+  margin-left: 1px;
+  position: absolute;
+  right: 84px;
+}
+
+.colored-space {
+  width: 84px;
+  height: 15px;
+  background-color: #f72210;
+  position: absolute;
+  right: 0;
+}
+
+.cover-img {
+  background:
+    url(https://placekitten.com/600/480) center center / cover
+    no-repeat;
+  height: 170px;
+}
+
+.mag-img {
+  background:
+    url(https://placekitten.com/200/300) center center / cover
+    no-repeat;
+  height: 250px;
+}
+
+.mag-img-1 {
+  background:
+    url(https://placekitten.com/200/300) center center / cover
+    no-repeat;
+  height: 300px;
+}
+
+@media (min-width: 768px) {
+  #debate {
+    margin-top: -30px;
+  }
+
+  .med-sticky {
+    position: sticky;
+    top: 0;
+  }
+
+  .img-distort-con {
+    left: 100px;
+    top: 10px;
+  }
+
+  .cover-img {
+    height: initial;
+  }
+}
+
+@media (min-width: 992px) {
+  .cover-img {
+    height: initial;
+  }
+
+  .h4 {
+    font-size: 4rem;
+  }
+
+  .lg-sticky {
+    position: sticky;
+    top: 0;
+    height: 100%;
+  }
+
+  nav {
+    height: 70px;
+  }
+
+  .navbar-brand {
+    padding-top: 0;
+  }
+
+  .form-lg {
+    flex: 0 0 80%;
+    max-width: 100%;
+  }
+
+  .logo-content img {
+    width: 296px;
+    height: auto;
+  }
+}
+
+.max-height {
+  height: 400px;
+}
+
+.hidden-img img {
+  height: 110px;
+  width: 110px;
+}
+
+.first-hidden {
+  border: #f62210;
+  height: 73.43px;
+}
+
+footer i {
+  font-size: 26px;
+  color: #606161;
+}
+
+.hover-black {
+  color: #606161;
+}
+
+footer .iconify {
+  height: 26px;
+  width: 26px;
+  color: #606161;
+}
+
+.hover-blue:hover {
+  color: rgb(96, 156, 233);
+}
+
+.hover-black:hover {
+  color: black;
+}
