@@ -124,33 +124,22 @@ h6,
 .middle-content {
   background: white;
 }
-
 .search-div {
-<<<<<<< HEAD
   width: 10%;
 }
 .search-nav {
   width: 60%;
-=======
-  width: 5%;
-  margin-left: 10px !important;
->>>>>>> 3119a658d44e9f832cf1d8912db6efc9b3b0f4ab
 }
 
 .nav-1 {
   height: 50px;
-<<<<<<< HEAD
-  margin-top: 80px;
-=======
-  margin-top: 70px;
->>>>>>> 3119a658d44e9f832cf1d8912db6efc9b3b0f4ab
+  margin-top: 69px;
 }
 
 .angle {
   width: 0;
   height: 0;
   border-top: 15px solid #f72210;
-<<<<<<< HEAD
   border-left: 10px solid transparent;
   margin-left: 1px;
   position: absolute;
@@ -159,22 +148,11 @@ h6,
 
 .colored-space {
   width: 84px;
-=======
-  border-left: 12px solid transparent;
-  margin-left: 1px;
-}
-
-.colored-space {
-  width: 233px;
->>>>>>> 3119a658d44e9f832cf1d8912db6efc9b3b0f4ab
   height: 15px;
   background-color: #f72210;
   position: absolute;
   right: 0;
 }
-<<<<<<< HEAD
-=======
-
 .sm-img {
   height: 200px !important;
 }
