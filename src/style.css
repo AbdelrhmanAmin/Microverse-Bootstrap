@@ -91,7 +91,12 @@ body {
 .card img,
 .card-img {
   width: 100%;
+  
+}
+
+.carddiv-img{
   height: 250px;
+  overflow-y: hidden;
 }
 
 .icon-logo {
