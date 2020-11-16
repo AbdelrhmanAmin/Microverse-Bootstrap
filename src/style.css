@@ -124,27 +124,30 @@ h6,
 .middle-content {
   background: white;
 }
-
 .search-div {
-  width: 5%;
-  margin-left: 10px !important;
+  width: 10%;
+}
+.search-nav {
+  width: 60%;
 }
 
 .nav-1 {
   height: 50px;
-  margin-top: 70px;
+  margin-top: 69px;
 }
 
 .angle {
   width: 0;
   height: 0;
   border-top: 15px solid #f72210;
-  border-left: 12px solid transparent;
+  border-left: 10px solid transparent;
   margin-left: 1px;
+  position: absolute;
+  right: 84px;
 }
 
 .colored-space {
-  width: 233px;
+  width: 84px;
   height: 15px;
   background-color: #f72210;
   position: absolute;
