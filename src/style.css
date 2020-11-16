@@ -153,10 +153,11 @@ h6,
   position: absolute;
   right: 0;
 }
-.sm-img {
-  height: 200px !important;
+.cover-img {
+  background: url(https://placekitten.com/600/480) center center / cover
+    no-repeat;
+  height: 170px;
 }
-
 @media (min-width: 768px) {
   #debate {
     margin-top: -30px;
@@ -171,17 +172,15 @@ h6,
     left: 100px;
     top: 10px;
   }
-
-  .News {
-    height: 180px !important;
-  }
-
-  .sm-img {
-    height: 100% !important;
+  .cover-img {
+    height: initial;
   }
 }
 
 @media (min-width: 992px) {
+  .cover-img {
+    height: initial;
+  }
   .h4 {
     font-size: 4rem;
   }
@@ -204,16 +203,12 @@ h6,
     flex: 0 0 100% !important;
     max-width: 100% !important;
   }
-
-  #News {
-    height: 280px !important;
-  }
 }
-footer i{
+footer i {
   font-size: 26px;
   color: #606161;
 }
-footer .iconify{
+footer .iconify {
   height: 26px;
   width: 26px;
   color: #606161;
