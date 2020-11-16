@@ -209,6 +209,21 @@ h6,
     height: 280px !important;
   }
 }
+
+.max-height{
+  height: 400px;
+}
+
+.hidden-img img{
+  height: 110px;
+  width: 110px;
+}
+
+.first-hidden{
+  height: 73.43px!important;
+  border: #f62210;
+}
+
 footer i{
   font-size: 26px;
   color: #606161;
