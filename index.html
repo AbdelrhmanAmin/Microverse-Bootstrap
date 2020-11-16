@@ -13,62 +13,141 @@
 </head>
 
 <body>
-  <header>
-  <nav class="navbar bg-danger sticky-top navbar-dark py-1 px-2 px-md-3 px-lg-5">
-    <div class="container-fluid m-0 p-0 d-flex flex-row align-items-center">
-      <div class="row d-flex w-100 flex-nowrap">
-        <div class="d-none d-lg-flex flex-column justify-content-center col-lg-4 text-light">
-          <span><i class="fas fa-cloud-sun-rain"></i> 20° Alexandria, Egypt</span>
-          <span>Thu, Nov 12, 2020</span>
+<header class="container-fluid">
+      <nav
+        class="navbar bg-danger fixed-top w-100 navbar-dark py-1 px-2 px-md-3 px-lg-5 py-lg-0"
+      >
+        <div class="container-fluid m-0 p-0 d-flex flex-row align-items-center">
+          <div class="row d-flex w-100 flex-nowrap">
+            <div
+              class="d-none d-lg-flex flex-column justify-content-center col-lg-4 text-light"
+            >
+              <span
+                ><i class="fas fa-cloud-sun-rain"></i> 20° Alexandria,
+                Egypt</span
+              >
+              <span>Thu, Nov 12, 2020</span>
+            </div>
+            <a href="#" class="navbar-brand col-6 col-lg-4">
+              <h4 class="m-0 h4">Kittensweek</h4>
+            </a>
+            <ul
+              class="navbar-nav d-flex flex-row align-items-center justify-content-end col-6 col-lg-4"
+            >
+              <li class="d-none d-md-block">
+                <small class="m-0 text-light font-weight-bold text-uppercase"
+                  >Login</small
+                >
+              </li>
+              <li class="d-block d-md-none">
+                <span><i class="fas fa-user text-light"></i></span>
+              </li>
+              <li class="mx-2">
+                <button
+                  type="submit"
+                  class="btn btn-warning custom-font font-weight-bolder btn-sm py-1 px-2 rounded-pill"
+                >
+                  SUBSCRIBE >
+                </button>
+              </li>
+              <li class="d-block d-lg-none">
+                <button class="navbar-toggler border-0 p-0" type="button">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </li>
+            </ul>
+          </div>
         </div>
-        <a href="#" class="navbar-brand col-6 col-lg-4">
-          <h4 class="m-0 h4 up">Kittensweek</h4>
-        </a>
-        <ul class="navbar-nav d-flex flex-row align-items-center justify-content-end col-6 col-lg-4">
-          <li class="d-none d-md-block">
-            <small class="m-0 text-light font-weight-bold text-uppercase">Login</small>
+      </nav>
+
+      <div class="nav-1 d-none d-lg-flex bg-white">
+        <ul
+          class="d-flex justify-content-between list-unstyled align-items-center my-1 px-0"
+        >
+          <li
+            class="d-flex flex-row align-items-center h-100 font-weight-bolder border-right px-lg-2 px-xl-4"
+          >
+            <b><a>U.S.</a></b>
           </li>
-          <li class="d-block d-md-none">
-            <span><i class="fas fa-user text-light"></i></span>
+          <li
+            class="d-flex flex-row align-items-center h-100 font-weight-bolder border-right px-lg-2 px-xl-4"
+          >
+            <b>World</b>
           </li>
-          <li class="mx-2">
-            <button class="btn btn-warning custom-font font-weight-bolder btn-sm py-1 px-2 rounded-pill">
-              SUBSCRIBE >
-            </button>
+          <li
+            class="d-flex flex-row align-items-center h-100 font-weight-bolder border-right px-lg-2 px-xl-4"
+          >
+            <b>Business</b>
           </li>
-          <li class="d-block d-lg-none">
-            <button class="navbar-toggler border-0 p-0" type="button">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+          <li
+            class="d-flex flex-row align-items-center h-100 font-weight-bolder border-right px-xl-4"
+          >
+            <b>Tech & Science</b>
+          </li>
+          <li
+            class="d-flex flex-row align-items-center h-100 font-weight-bolder border-right px-lg-2 px-xl-4"
+          >
+            <b>Culture</b>
+          </li>
+          <li
+            class="d-flex flex-row align-items-center h-100 font-weight-bolder border-right px-lg-2 px-xl-4"
+          >
+            <b>Newsgeek</b>
+          </li>
+          <li
+            class="d-flex flex-row align-items-center h-100 font-weight-bolder border-right px-lg-2 px-xl-4"
+          >
+            <b>Sports</b>
+          </li>
+          <li
+            class="d-flex flex-row align-items-center h-100 font-weight-bolder border-right px-lg-2 px-xl-4"
+          >
+            <b>Health</b>
+          </li>
+          <li
+            class="d-flex flex-row align-items-center h-100 font-weight-bolder border-right px-xl-2"
+          >
+            <b>The Debate</b>
+          </li>
+          <li
+            class="d-flex flex-row align-items-center h-100 font-weight-bolder border-right px-lg-2 px-xl-4"
+          >
+            <b>Vantage</b>
+          </li>
+          <li
+            class="d-flex flex-row align-items-center h-100 font-weight-bolder"
+          >
+            <b>Weather</b>
+          </li>
+        </ul>
+        <div
+          class="search-div d-flex justify-content-center align-items-center"
+        >
+          <input
+            class="search-nav mt-0 form-text bg-transparent border-0"
+            aria-label="small"
+            type="text"
+            placeholder="Search"
+          />
+          <i class="fas fa-search"></i>
+        </div>
+
+        <div class="angle"></div>
+        <div class="colored-space"></div>
+      </div>
+      <div class="nav-2 d-none d-lg-flex bg-white border-top border-bottom">
+        <ul class="d-flex flex-row list-unstyled mb-0 py-3 align-items-center">
+          <li class="px-3 font-weight-bolder">TRENDING</li>
+          <li class="px-3 font-weight-bolder text-secondary">JOE BIDEN</li>
+          <li class="px-3 font-weight-bolder text-secondary">DONALD TRUMP</li>
+          <li class="px-3 font-weight-bolder text-secondary">2020 ELECTIONS</li>
+          <li class="px-3 font-weight-bolder text-secondary">CORONAVIRUS</li>
+          <li class="px-3 font-weight-bolder text-secondary">
+            STIMLUS PACKAGE
           </li>
         </ul>
       </div>
-    </div>
-  </nav>
-
-  <nav class="nav-2 d-none d-lg-flex bg-white position-absolute mt-n3 ">
-    <ul class="d-flex justify-content-arround list-unstyled pt-2 ml-2 w-100">
-      <li class="border-right pr-2 font-weight-bold"><b><a>U.S.</a></b></li>
-      <li class="border-right px-2"><b>World</b></li>
-      <li class=" border-right px-2"><b>Business</b></li>
-      <li class=" border-right px-2"><b>Tech & Science</b></li>
-      <li class=" border-right px-2">Culture</li>
-      <li class=" border-right px-2">Newsgeek</li>
-      <li class=" border-right px-2">Sports</li>
-      <li class=" border-right px-2">Health</li>
-      <li class=" border-right px-2">The Debate</li>
-      <li class=" border-right px-2">Vantage</li>
-      <li class=" pl-2">Wather</li>
-    </ul>
-    <div class="search-div d-flex justify-content-start mr-2">
-    <input class="search-nav w-100 mt-0 pb-2 form-text bg-transparent border-0 " aria-label="small" width="20" type="text" placeholder="Search">
-    <i class="fas fa-search pt-2"></i>   
-  </div>
-  <div class="h-10"></div>
-  </nav>
- 
-
-</header>
+    </header>
   <div class="container-fluid">
     <div class="row no-glutters">
       <div class="col-12">
